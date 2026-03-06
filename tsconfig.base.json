@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "mfe1/Routes": ["apps/mfe1/src/app/app.routes.ts"],
+      "mfe2/Routes": ["apps/mfe2/src/app/app.routes.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
